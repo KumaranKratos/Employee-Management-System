@@ -1,0 +1,12 @@
+.about {
+  text-align: center;
+}
+.about h1 {
+  font-size: 4vh;
+}
+.about p {
+  font-size: 3vh;
+}
+.about h4 {
+  line-height: 100vh;
+}

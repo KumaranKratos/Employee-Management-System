@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 40px;
+  font-size: 1.5vw;
+  color: #332366;
+}
+.list {
+  width: 45vw;
+  line-height: 2.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonlist {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: #977df8;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #7152e1;
+  /* background-color: #332366; */
+}

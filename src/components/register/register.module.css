@@ -1,0 +1,67 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  color: #6c47f1;
+}
+h1 {
+  font-weight: 150;
+}
+.form {
+  font-size: 1.5vw;
+  font-weight: 400;
+  height: auto;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.form label {
+  color: rgba(0, 0, 0, 0.779);
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form input {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.629);
+  font-size: 1.15vw;
+  flex: 2;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.37); /* Light border for definition */
+  outline: none;
+}
+
+.btn {
+  /* background-color: rgb(209, 118, 209); */
+  background-color: #977df8;
+
+  color: white;
+  border: none;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #6c47f1;
+}
